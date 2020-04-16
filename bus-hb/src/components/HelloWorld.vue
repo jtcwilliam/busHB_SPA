@@ -88,7 +88,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Wel come to Your Vue.js App'
     }
   }
 }
@@ -96,8 +96,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+body{
+  background-color: #42b983;
+}
 h1, h2 {
-  font-weight: normal;
+  font-weight: bold;
 }
 ul {
   list-style-type: none;
